@@ -9,7 +9,7 @@ public class StringToIpPortConverter implements Converter<String, IpPort> {
 
   @Override
   public IpPort convert(String source) {
-    log.info("conver source={}", source);
+    log.info("convert source={}", source);
 
     //"127.0.0.1:8080" -> ipPort 객체
     String[] split = source.split(":");
